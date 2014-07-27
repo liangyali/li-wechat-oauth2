@@ -1,0 +1,44 @@
+{
+  "name": "li-wechat-oauth2",
+  "version": "0.0.0",
+  "main": "lib/oauth.test.js",
+  "description": "wechat oauth2 weixin",
+  "homepage": "http://www.liangyali.com",
+  "bugs": "https://github.com/liangyali/li-wechat-oauth2/issues",
+  "author": {
+    "name": "liangyali",
+    "email": "me@liangyali.com",
+    "url": "http://www.liangyali.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/liangyali/li-wechat-oauth2"
+  },
+  "license": "MIT",
+  "files": [
+    "lib"
+  ],
+  "keywords": [
+    "li-wechat-oauth2",
+    "wechat oauth2 weixin"
+  ],
+  "devDependencies": {
+    "coveralls": "^2.11.1",
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-contrib-nodeunit": "^0.3.3",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-mocha-test": "^0.11.0",
+    "istanbul": "^0.3.0",
+    "jshint-stylish": "^0.2.0",
+    "load-grunt-tasks": "^0.4.0",
+    "mocha": "^1.21.0",
+    "should": "^4.0.4",
+    "time-grunt": "^0.3.1"
+  },
+  "scripts": {
+    "test": "grunt"
+  },
+  "dependencies": {
+    "request": "^2.39.0"
+  }
+}
